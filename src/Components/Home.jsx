@@ -53,9 +53,9 @@ const Home = () => {
         </a>
       </div>
       <hr />
-      <div className='md:flex block justify-around py-2 md:py-5'>
+      <div className='md:flex block my-5 justify-around py-2 md:py-5'>
         <img className='object-contain' src={zuri} alt="" />
-        <p>HNG Internship 9 Frontend Task</p>
+        <p className='py-2'>HNG Internship 9 Frontend Task</p>
         <img src={ingressive} alt="" />
       </div>
     </div>

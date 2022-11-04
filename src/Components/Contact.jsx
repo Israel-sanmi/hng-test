@@ -152,10 +152,12 @@ const Contact = () => {
         </div>
       </div>
       <hr />
-      <div className="md:flex block justify-around py-2 md:py-5">
-        <img className="object-contain" src={zuri} alt="" />
-        <p>HNG Internship 9 Frontend Task</p>
-        <img src={ingressive} alt="" />
+      <div className="block mt-2">
+        <div className="md:flex ml-5 my-5 block justify-around py-2 md:py-5">
+          <img className="object-contain" src={zuri} alt="" />
+          <p className="py-2">HNG Internship 9 Frontend Task</p>
+          <img src={ingressive} alt="" />
+        </div>
       </div>
     </div>
   );
