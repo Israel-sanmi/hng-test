@@ -45,7 +45,7 @@ const Contact = () => {
                     id="first_name"
                     className={`border ${
                       !firstname ? "focus:ring-red-500" : "focus:ring-sky-500"
-                    } focus:outline-none focus:ring-2 shadow-sm border-[#D0D5DD] rounded-md indent-3 text-xs w-[348px] h-[44px] py-1`}
+                    } focus:outline-none focus:ring-2 shadow-sm border-[#D0D5DD] rounded-md indent-3 text-xs w-full md:w-[348px] h-[44px] py-1`}
                     type="text"
                     placeholder="Enter your first name"
                     onChange={(e) => {
@@ -68,7 +68,7 @@ const Contact = () => {
                     id="last_name"
                     className={`border ${
                       !lastname ? "focus:ring-red-500" : "focus:ring-sky-500"
-                    } focus:outline-none focus:ring-2 shadow-sm border-[#D0D5DD] rounded-md indent-3 text-xs w-[348px] h-[44px] py-1`}
+                    } focus:outline-none focus:ring-2 shadow-sm border-[#D0D5DD] rounded-md indent-3 text-xs w-full md:w-[348px] h-[44px] py-1`}
                     type="text"
                     placeholder="Enter your last name"
                     onChange={(e) => {
