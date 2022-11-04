@@ -24,8 +24,8 @@ const Contact = () => {
   };
 
   return (
-    <div>
-      <div className="md:flex block py-10 px-4 md:py-0 md:px-0 h-screen w-full justify-center items-center">
+    <div className="block">
+      <div className="md:flex block mb-10 py-10 px-4 md:py-0 md:px-0 h-[100%] w-full justify-center items-center">
         <div>
           <div>
             <h1 className=" text-[36px] font-semibold">Contact Me</h1>
