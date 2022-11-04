@@ -1,10 +1,9 @@
 import React from "react";
-import "./Atom.css";
 
 const Atom = ({linkName}) => {
   return (
-    <div className="link">
-      <p className="link-text">{linkName}</p>
+    <div className="w-full bg-[#EAECF0] py-10 text-center my-5">
+      <p className="font-semibold text-[18px]">{linkName}</p>
     </div>
   );
 };
